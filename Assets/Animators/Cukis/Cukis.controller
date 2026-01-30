@@ -43,7 +43,7 @@ AnimatorStateMachine:
     m_Position: {x: 360, y: -60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6441072581635646673}
-    m_Position: {x: 380, y: 10, z: 0}
+    m_Position: {x: 390, y: 10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -200800766208319595}
     m_Position: {x: 720, y: 220, z: 0}
@@ -93,7 +93,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Roll
-  m_Speed: 1
+  m_Speed: 3
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 7862314657155690835}
@@ -120,7 +120,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SmallJump
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -4810170228018097847}
