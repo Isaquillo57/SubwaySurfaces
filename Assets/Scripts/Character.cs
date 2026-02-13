@@ -19,8 +19,6 @@ public class Character : MonoBehaviour
     [SerializeField]
     private Transform characterStartPivot;
     [SerializeField]
-    private UnityEvent onLose;
-    [SerializeField]
     private UnityEvent onJump;
     [SerializeField]
     private UnityEvent onMoveToSide;
