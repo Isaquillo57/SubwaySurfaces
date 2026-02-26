@@ -139,7 +139,7 @@ Transform:
   m_GameObject: {fileID: 678517362480527935}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.29212, y: 3.19419, z: 0.01841}
+  m_LocalPosition: {x: -371.40704, y: -0, z: 4404.2485}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -940,7 +940,7 @@ GameObject:
   - component: {fileID: 6832644126935044700}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -954,7 +954,7 @@ Transform:
   m_GameObject: {fileID: 4700359456064173743}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.32788, y: 1.37081, z: 1.87359}
+  m_LocalPosition: {x: 1.04, y: 1.37081, z: 1.87359}
   m_LocalScale: {x: 1, y: 1, z: 0.15918373}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1035,7 +1035,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
