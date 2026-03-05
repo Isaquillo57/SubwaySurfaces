@@ -8,6 +8,8 @@ public class PowerUpManager : MonoBehaviour
     private int maxPlatformsNumber = 7;
     [SerializeField]
     private InstantiatePoolObjects[] powerUpPools;
+    [SerializeField]
+    private float powerUpOffset = 2f;
     private int platformsNumber;
     private int platformsCounter = 0;
     public void Awake()
@@ -34,5 +36,6 @@ public class PowerUpManager : MonoBehaviour
         pool.InstantiateObject(Vector3.zero);
         GameObject powerUp = pool.GetCurrentObject();
         platform.AddPowerUp(powerUp);
+        powerUp.transform.localPosition += Vector3.up * powerUpOffset;
     }
 }
