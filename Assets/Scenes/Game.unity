@@ -1198,7 +1198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 606b7d99b6ee20e40be5e4572b3c5499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantiatePoolObjects
-  prefab: {fileID: 6493515226554242626, guid: 19110dc84fc816148a5c8a49626bd26a, type: 3}
+  prefab: {fileID: 8153773025115523771, guid: 454bb4afef73400419652991ed3ce8df, type: 3}
 --- !u!4 &376773132
 Transform:
   m_ObjectHideFlags: 0
