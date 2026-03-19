@@ -1956,6 +1956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Billboard_2x1_05
       objectReference: {fileID: 0}
+    - target: {fileID: 7064141867642049151, guid: 5e4321d23278ef641adb070ebaae3fe8, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 7584922919834519749, guid: 5e4321d23278ef641adb070ebaae3fe8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.12507
